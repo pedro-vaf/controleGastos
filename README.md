@@ -88,7 +88,7 @@ Desenvolver uma aplicação **Full Stack** seguindo **boas práticas**, **Clean 
 ## 🏗️ Arquitetura
 
 ### Backend (Clean Architecture)
-```text
+
 ControleGastos/
 ├── ControleGastos.Domain/          # Entidades e regras de negócio
 ├── ControleGastos.Infrastructure/ # Acesso a dados (EF Core)
@@ -257,8 +257,3 @@ GitHub: @pedro-vaf
 Email: pedro.aquino.ct@gmail.com
 
 LinkedIn: Pedro Aquino
-
-<div align="center">
-⭐ Se este projeto te ajudou, considere dar uma estrela!
-
-</div> ```
