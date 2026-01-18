@@ -101,14 +101,18 @@ ControleGastos/
 │
 ├── ControleGastos.Infrastructure/  # Persistência e repositórios
 │   ├── Data/
-│   │   ├── AppDbContext.cs
-│   │   └── Repositories/
-│   └── Migrations/
+│       ├── AppDbContext.cs
+│       └── Repositories/
 │
 └── ControleGastos.API/             # Camada de apresentação
-    ├── Controllers/
-    ├── Program.cs
-    └── appsettings.json
+│   ├── Controllers/
+│   ├── Program.cs
+│   └── appsettings.json
+└── ControleGastos.Migrations/
+│
+│
+└── ControleGastos.Data/
+    └── controleGastos.db
 ```
 
 ### Frontend 
