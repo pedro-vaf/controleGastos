@@ -1,0 +1,12 @@
+{
+  "name": "projetocontrolegastos",
+  "private": true,
+  "scripts": {
+    "frontend": "npm run dev --prefix Front-End/controleGastos",
+    "backend": "dotnet run --project Back-End/controleGastos/controleGastos",
+    "dev": "concurrently -k -n FRONT,BACK -c cyan,green \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
