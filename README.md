@@ -125,15 +125,15 @@ src/
 ```
 
 ### Como Executar o Projeto (Concurrently)
-- 1. Clone o repositório:
+- Clone o repositório:
 ```text
 git clone https://github.com/pedro-vaf/controleGastos.git
 ```
-- 2. Acesse a pasta do projeto:
+- Acesse a pasta do projeto:
 ```text
 cd controleGastos
 ```
-- 3. Rode na raiz:
+- Rode na raiz:
 ```text
 npm run dev
 ```
