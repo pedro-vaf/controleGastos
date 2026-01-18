@@ -6,7 +6,8 @@
 <img width="1920" height="1080" alt="Captura de tela 2026-01-18 145907" src="https://github.com/user-attachments/assets/8759dea7-a3c3-4ff4-b3d5-b412952a2550" />
 Sistema Full Stack para gerenciamento de gastos pessoais com relatórios financeiros completos
 Demo • Documentação • Instalação
-  
+</div>
+
 ## 💰 Controle de Gastos Residenciais (Full Stack)
 
 Sistema web para **controle de gastos residenciais**, permitindo o gerenciamento completo de **receitas e despesas**, com **categorização**, **controle por pessoa** e **relatórios financeiros detalhados**.
