@@ -88,163 +88,41 @@ Desenvolver uma aplicação **Full Stack** seguindo **boas práticas**, **Clean 
 ## 🏗️ Arquitetura
 
 ### Backend (Clean Architecture)
-
+```text
 ControleGastos/
 ├── ControleGastos.Domain/          # Entidades e regras de negócio
-├── ControleGastos.Infrastructure/ # Acesso a dados (EF Core)
-├── ControleGastos.Application/    # Lógica de aplicação (Services)
-└── ControleGastos.API/            # Controllers e endpoints
-Frontend (Component-Based)
-text
-Copiar código
+│   ├── Entities/
+│   ├── Enums/
+│   └── Interfaces/
+│
+├── ControleGastos.Application/     # Casos de uso e serviços
+│   ├── DTOs/
+│   ├── Services/
+│   └── Validators/
+│
+├── ControleGastos.Infrastructure/  # Persistência e repositórios
+│   ├── Data/
+│   │   ├── AppDbContext.cs
+│   │   └── Migrations/
+│   └── Repositories/
+│
+└── ControleGastos.API/             # Camada de apresentação
+    ├── Controllers/
+    ├── Program.cs
+    └── appsettings.json
+```
+
+### Frontend 
+```text
 src/
-├── components/   # Componentes React
-├── services/     # Comunicação com API
-├── types/        # Interfaces TypeScript
-└── App.tsx       # Componente principal
-▶️ Como Executar o Projeto
-Este projeto utiliza Concurrently, permitindo executar backend e frontend juntos com um único comando.
-
-Pré-requisitos
-Node.js
-
-.NET SDK 9.0
-
-Passos
-Clone o repositório:
-
-bash
-Copiar código
-git clone https://github.com/pedro-vaf/controleGastos.git
-Acesse a pasta do projeto:
-
-bash
-Copiar código
-cd controleGastos
-Execute o projeto na raiz:
-
-bash
-Copiar código
-npm run dev
-✅ O backend e o frontend serão iniciados automaticamente.
-
-🌐 Acessos
-API: http://localhost:5058
-
-Swagger UI: http://localhost:5058/swagger
-
-Frontend: http://localhost:5173
-
-📡 Endpoints da API
-Pessoas
-GET /api/pessoas — Lista todas as pessoas
-
-GET /api/pessoas/{id} — Obtém pessoa por ID
-
-POST /api/pessoas — Cria nova pessoa
-
-DELETE /api/pessoas/{id} — Deleta pessoa
-
-Categorias
-GET /api/categorias — Lista todas as categorias
-
-GET /api/categorias/{id} — Obtém categoria por ID
-
-POST /api/categorias — Cria nova categoria
-
-Transações
-GET /api/transacoes — Lista todas as transações
-
-GET /api/transacoes/pessoa/{id} — Lista transações por pessoa
-
-POST /api/transacoes — Cria nova transação
-
-Relatórios
-GET /api/relatorios/por-pessoa — Relatório por pessoa
-
-GET /api/relatorios/por-categoria — Relatório por categoria
-
-GET /api/relatorios/resumo — Resumo geral
-
-💡 Regras de Negócio
-👶 Menor de Idade
-Pessoas com menos de 18 anos só podem ter despesas
-
-Tentativa de criar receita retorna erro 400
-
-✅ Compatibilidade de Categoria
-Categoria Despesa → aceita apenas despesas
-
-Categoria Receita → aceita apenas receitas
-
-Categoria Ambas → aceita qualquer tipo
-
-🔗 Integridade Referencial
-Deletar pessoa remove todas as suas transações (Cascade)
-
-Categoria com transações não pode ser removida (Restrict)
-
-🎨 Interface
-Telas Principais
-Pessoas: cadastro e listagem com indicador de idade
-
-Categorias: gestão com badges por finalidade
-
-Transações: formulário inteligente com filtros dinâmicos
-
-Relatórios: visualização consolidada com totais
-
-UX
-Loading states
-
-Mensagens de sucesso e erro
-
-Confirmações antes de deletar
-
-Validações em tempo real
-
-Design responsivo (mobile-first)
-
-Formatação automática de moeda
-
-📊 Exemplos de Uso
-Criar Pessoa
-json
-Copiar código
-POST /api/pessoas
-{
-  "nome": "João Silva",
-  "idade": 25
-}
-Criar Categoria
-json
-Copiar código
-POST /api/categorias
-{
-  "descricao": "Alimentação",
-  "finalidade": 3
-}
-Finalidade: 1 = Despesa, 2 = Receita, 3 = Ambas
-
-Criar Transação
-json
-Copiar código
-POST /api/transacoes
-{
-  "descricao": "Compra supermercado",
-  "valor": 150.50,
-  "tipo": 1,
-  "categoriaId": 1,
-  "pessoaId": 1
-}
-Tipo: 1 = Despesa, 2 = Receita
-
-🧪 Testes
-Menor de idade tentando criar receita → falha
-
-Categoria de receita tentando despesa → falha
-
-Deletar pessoa remove transações automaticamente
+├── components/     # Componentes reutilizáveis
+├── pages/          # Páginas da aplicação
+├── services/       # Comunicação com a API (Axios)
+├── types/          # Tipagens TypeScript
+├── hooks/          # Hooks customizados
+├── styles/         # Estilos globais
+└── App.tsx
+```
 
 📝 Licença
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE.
