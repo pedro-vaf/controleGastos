@@ -6,6 +6,7 @@
 <img width="1920" height="1080" alt="Captura de tela 2026-01-18 145907" src="https://github.com/user-attachments/assets/8759dea7-a3c3-4ff4-b3d5-b412952a2550" />
 Sistema Full Stack para gerenciamento de gastos pessoais com relatórios financeiros completos
 Demo • Documentação • Instalação
+  
 </div>
 # 💰 Controle de Gastos Residenciais (Full Stack)
 
@@ -98,13 +99,12 @@ ControleGastos/
 ├── ControleGastos.Application/     # Casos de uso e serviços
 │   ├── DTOs/
 │   ├── Services/
-│   └── Validators/
 │
 ├── ControleGastos.Infrastructure/  # Persistência e repositórios
 │   ├── Data/
 │   │   ├── AppDbContext.cs
-│   │   └── Migrations/
-│   └── Repositories/
+│   │   └── Repositories/
+│   └── Migrations/
 │
 └── ControleGastos.API/             # Camada de apresentação
     ├── Controllers/
@@ -116,11 +116,8 @@ ControleGastos/
 ```text
 src/
 ├── components/     # Componentes reutilizáveis
-├── pages/          # Páginas da aplicação
 ├── services/       # Comunicação com a API (Axios)
 ├── types/          # Tipagens TypeScript
-├── hooks/          # Hooks customizados
-├── styles/         # Estilos globais
 └── App.tsx
 ```
 
