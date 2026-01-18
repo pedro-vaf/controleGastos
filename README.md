@@ -1,4 +1,3 @@
-💰 Sistema de Controle de Gastos Residenciais
 <div align="center">
 <img width="1920" height="1080" alt="Captura de tela 2026-01-18 145755" src="https://github.com/user-attachments/assets/aab64b03-37c4-4929-bb35-b8afde440dab" />
 <img width="1920" height="1080" alt="Captura de tela 2026-01-18 145826" src="https://github.com/user-attachments/assets/ded03ead-5ea5-4b10-a5cc-f5526809c3d0" />
@@ -121,8 +120,20 @@ src/
 └── App.tsx
 ```
 
-📝 Licença
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE.
+### Como Executar o Projeto (Concurrently)
+- 1. Clone o repositório:
+```text
+git clone https://github.com/pedro-vaf/controleGastos.git
+```
+- 2. Acesse a pasta do projeto:
+```text
+cd controleGastos
+```
+- 3. Rode na raiz:
+```text
+npm run dev
+```
+✅ Pronto: o backend e o frontend iniciam em conjunto.
 
 👨‍💻 Autor
 Pedro Vitor Aquino Ferreira
