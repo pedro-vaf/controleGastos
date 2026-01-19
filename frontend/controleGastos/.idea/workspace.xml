@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="691e2b42-4915-4e01-8e76-ffd82fc229a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/Data/controleGastos.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/Data/controleGastos.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/bin/Debug/net9.0/controleGastos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/bin/Debug/net9.0/controleGastos.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/bin/Debug/net9.0/controleGastos.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/bin/Debug/net9.0/controleGastos.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/bin/Debug/net9.0/controleGastos.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/bin/Debug/net9.0/controleGastos.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/controleGastos.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/ref/controleGastos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/ref/controleGastos.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/refint/controleGastos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/refint/controleGastos.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-End/controleGastos/controleGastos/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="38O4bi6OCp2AzJzIepLOiGDXcJS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.localhost:5173.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "C:/Users/pedro.ferreira/Downloads/projetoControleGastos/Front-End",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Users\\pedro.ferreira\\Downloads\\projetoControleGastos\\Front-End\\controleGastos\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pedro.ferreira\Downloads\projetoControleGastos\Front-End\controleGastos" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="localhost:5173" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5173/">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:5173" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="691e2b42-4915-4e01-8e76-ffd82fc229a5" name="Changes" comment="" />
+      <created>1768657357945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768657357945</updated>
+      <workItem from="1768657360133" duration="7000" />
+      <workItem from="1768657388781" duration="16474000" />
+      <workItem from="1768691020597" duration="940000" />
+      <workItem from="1768692845770" duration="2923000" />
+      <workItem from="1768700233324" duration="2839000" />
+      <workItem from="1768749226159" duration="2904000" />
+      <workItem from="1768752229470" duration="164000" />
+      <workItem from="1768753401633" duration="1478000" />
+      <workItem from="1768756044801" duration="1881000" />
+      <workItem from="1768861568598" duration="815000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
