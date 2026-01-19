@@ -3586,11 +3586,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro.ferreira\\Downloads\\projetoControleGastos\\backend\\controleGastos\\controleGastos\\controleGastos.csproj",
+      "projectUniqueName": "C:\\Users\\pedro.ferreira\\Downloads\\controleGastos\\backend\\controleGastos\\controleGastos.csproj",
       "projectName": "controleGastos",
-      "projectPath": "C:\\Users\\pedro.ferreira\\Downloads\\projetoControleGastos\\backend\\controleGastos\\controleGastos\\controleGastos.csproj",
+      "projectPath": "C:\\Users\\pedro.ferreira\\Downloads\\controleGastos\\backend\\controleGastos\\controleGastos.csproj",
       "packagesPath": "C:\\Users\\pedro.ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro.ferreira\\Downloads\\projetoControleGastos\\backend\\controleGastos\\controleGastos\\obj\\",
+      "outputPath": "C:\\Users\\pedro.ferreira\\Downloads\\controleGastos\\backend\\controleGastos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

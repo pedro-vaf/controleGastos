@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3FCiPAiqvdo=",
+  "dgSpecHash": "9PPpUIJmoIs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro.ferreira\\Downloads\\projetoControleGastos\\backend\\controleGastos\\controleGastos\\controleGastos.csproj",
+  "projectFilePath": "C:\\Users\\pedro.ferreira\\Downloads\\controleGastos\\backend\\controleGastos\\controleGastos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro.ferreira\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\pedro.ferreira\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
